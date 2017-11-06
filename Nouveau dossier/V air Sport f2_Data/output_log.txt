@@ -1,0 +1,77 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     4058 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\GETween.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\GETween.dll into Unity Child Domain
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.029 seconds
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\urbanlab\Desktop\Nouveau dossier\V air Sport f2_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1024x768 60Hz; virtual: 1024x768 at 0,0
+<RI> Initialized touch support.
+OpenVR initialized!
+ 
+(Filename:  Line: 381)
+
+UnloadTime: 0.492365 ms
+Connected to lighthouse:LHR-857B109B
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PUNVoice: connecting to master :5055
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Raquette.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Raquette.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+RPC called with 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PUNVoice: Timeout-disconnect! Command: CMD(2 c#:255 r/u: 1/0 st/r#/rt:9360/6/10016) now: 18969 challenge: 53d2d3d
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PUNVoice: Got a unexpected Disconnect in LoadBalancingClient State: Disconnected. 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 28dc -> priority: 1 
+OpenVR Shutdown
+ 
+(Filename:  Line: 815)
+

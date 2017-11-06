@@ -1,0 +1,337 @@
+﻿2017-03-26 18:41:12,473 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=f92ac77b-de73-403c-954d-07430a77604b
+2017-03-26 18:41:12,706 [1] INFO  Photon.SocketServer.Diagnostics.PerfCounterManagerBase - PerformanceCounter category 'Photon: Http Queue Counters' does not exists and will be created
+2017-03-26 18:41:12,843 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-03-26 18:41:12,845 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-03-26 18:41:12,853 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-03-26 18:41:13,118 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2017-03-26 18:41:13,119 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2017-03-26 18:41:13,119 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2017-03-26 18:41:13,119 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2017-03-26 18:41:13,120 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2017-03-26 18:41:13,120 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2017-03-26 18:41:13,120 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2017-03-26 18:41:13,121 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2017-03-26 18:41:13,121 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2017-03-26 18:41:13,121 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2017-03-26 18:41:13,121 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2017-03-26 18:41:13,121 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2017-03-26 18:41:13,122 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2017-03-26 18:41:13,122 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2017-03-26 18:41:13,136 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (Could not find file 'D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config'.)
+2017-03-26 18:41:13,146 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2017-03-26 18:41:13,148 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-26 18:41:13,149 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2017-03-26 18:41:13,174 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=f92ac77b-de73-403c-954d-07430a77604b
+2017-03-26 18:41:13,199 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2017-03-26 18:41:13,205 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-03-26 18:41:13,917 [11] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2017-03-26 18:41:13,917 [11] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-26 18:41:13,921 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 127.0.0.1, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID f92ac77b-de73-403c-954d-07430a77604b, Hostname localhost, IPv6Address 
+2017-03-26 18:41:14,010 [10] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=f92ac77b-de73-403c-954d-07430a77604b
+2017-03-26 18:48:20,496 [14] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-26 18:48:20,496 [14] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-26 19:01:25,848 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-26 19:01:25,849 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-26 19:03:38,793 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-26 19:03:38,806 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-26 22:47:45,702 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-26 22:47:45,702 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-26 23:06:00,995 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-26 23:06:00,995 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-26 23:09:42,278 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-26 23:09:42,278 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-26 23:12:29,621 [10] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to High with input 70
+2017-03-26 23:12:29,621 [10] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=High
+2017-03-26 23:18:15,028 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from High to Normal with input 50
+2017-03-26 23:18:15,028 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=High, new=Normal
+2017-03-26 23:21:38,292 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-26 23:21:38,293 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-26 23:36:06,254 [22] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-26 23:36:06,254 [22] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-26 23:39:34,401 [27] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-26 23:39:34,401 [27] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-26 23:40:33,776 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-26 23:40:33,778 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-26 23:44:03,200 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-26 23:44:03,200 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-26 23:44:36,627 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-26 23:44:36,628 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-26 23:46:14,088 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to High with input 70
+2017-03-26 23:46:14,089 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=High
+2017-03-26 23:47:00,588 [18] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from High to Highest with input 90
+2017-03-26 23:47:00,589 [18] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=High, new=Highest
+2017-03-27 00:27:56,622 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Highest to Normal with input 50
+2017-03-27 00:27:56,623 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Highest, new=Normal
+2017-03-27 00:30:22,729 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to High with input 70
+2017-03-27 00:30:22,730 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=High
+2017-03-27 00:44:46,713 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from High to Normal with input 50
+2017-03-27 00:44:46,713 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=High, new=Normal
+2017-03-27 00:45:11,841 [28] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-27 00:45:11,841 [28] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-27 00:45:45,058 [29] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 00:45:45,058 [29] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 01:03:34,042 [28] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 01:03:34,042 [28] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 01:04:47,432 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 01:04:47,432 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 01:10:17,497 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 01:10:17,497 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 01:14:12,886 [18] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 01:14:12,887 [18] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 01:50:46,420 [48] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 01:50:46,420 [48] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 01:52:52,215 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 01:52:52,215 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 01:57:43,887 [31] WARN  ExitGames.Diagnostics.Monitoring.Protocol.PhotonBinaryWriterBase - SendData: Publishing counter data failed for the 0 time: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full
+2017-03-27 09:09:40,909 [31] WARN  Photon.SocketServer.Diagnostics.CounterPublisher - Failed to publish counter data. Counter publisher will retry publishing infinitely: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full
+2017-03-27 09:34:39,075 [45] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 09:34:39,079 [45] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 09:35:15,329 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-27 09:35:15,329 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-27 09:36:27,793 [35] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-27 09:36:27,793 [35] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-27 09:37:09,043 [44] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 09:37:09,043 [44] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 09:50:47,482 [37] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 09:50:47,483 [37] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 10:00:26,829 [10] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-27 10:00:26,830 [10] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-27 10:03:06,886 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-27 10:03:06,886 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-27 10:03:47,059 [39] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 10:03:47,059 [39] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 10:11:40,932 [33] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 10:11:40,932 [33] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 10:22:32,986 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 10:22:32,986 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 11:05:28,869 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 11:05:28,872 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 11:11:44,558 [43] WARN  ExitGames.Diagnostics.Monitoring.Protocol.PhotonBinaryWriterBase - SendData: Publishing counter data failed for the 0 time: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full
+2017-03-27 11:11:44,558 [43] WARN  Photon.SocketServer.Diagnostics.CounterPublisher - Failed to publish counter data. Counter publisher will retry publishing infinitely: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full
+2017-03-27 11:48:36,511 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-27 11:48:36,512 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-27 12:02:38,246 [10] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-27 12:02:38,247 [10] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-27 12:08:04,948 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-27 12:08:04,949 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-27 12:15:01,109 [41] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-27 12:15:01,110 [41] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-27 12:15:49,324 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 12:15:49,325 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 16:20:17,167 [14] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 16:20:17,169 [14] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 16:20:33,246 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-27 16:20:33,247 [40] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-27 16:21:53,686 [14] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-27 16:21:53,687 [14] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-27 16:22:10,834 [56] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 16:22:10,834 [56] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 16:57:14,495 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 16:57:14,495 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 16:57:31,609 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-27 16:57:31,610 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-27 16:57:56,827 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to High with input 70
+2017-03-27 16:57:56,827 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=High
+2017-03-27 17:04:39,502 [28] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from High to Normal with input 50
+2017-03-27 17:04:39,502 [28] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=High, new=Normal
+2017-03-27 17:05:00,606 [36] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-27 17:05:00,606 [36] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-27 17:05:25,807 [28] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 17:05:25,807 [28] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 17:07:11,448 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 17:07:11,448 [9] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 17:09:27,323 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 17:09:27,323 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-27 17:33:18,011 [25] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-27 17:33:18,012 [25] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-27 17:35:05,670 [51] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-27 17:35:05,670 [51] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-30 09:48:21,905 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=c40752d7-0d7e-4219-b1a2-d7565ee62261
+2017-03-30 09:48:22,709 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-03-30 09:48:22,712 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-03-30 09:48:22,732 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-03-30 09:48:22,774 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2017-03-30 09:48:22,775 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2017-03-30 09:48:22,776 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2017-03-30 09:48:22,776 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2017-03-30 09:48:22,777 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2017-03-30 09:48:22,778 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2017-03-30 09:48:22,778 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2017-03-30 09:48:22,779 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2017-03-30 09:48:22,780 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2017-03-30 09:48:22,781 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2017-03-30 09:48:22,782 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2017-03-30 09:48:22,783 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2017-03-30 09:48:22,783 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2017-03-30 09:48:22,784 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2017-03-30 09:48:22,826 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (Could not find file 'D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config'.)
+2017-03-30 09:48:22,862 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2017-03-30 09:48:22,871 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-30 09:48:22,875 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2017-03-30 09:48:22,937 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=c40752d7-0d7e-4219-b1a2-d7565ee62261
+2017-03-30 09:48:23,023 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2017-03-30 09:48:23,044 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-03-30 09:48:24,992 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 39
+2017-03-30 09:48:24,993 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-30 09:48:25,599 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=5edd9c8e-3d5d-449e-bf34-c6c95b35cb2c
+2017-03-30 09:48:26,461 [17] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-03-30 09:48:26,463 [17] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-03-30 09:48:26,484 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-03-30 09:48:26,522 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2017-03-30 09:48:26,524 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2017-03-30 09:48:26,526 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2017-03-30 09:48:26,527 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2017-03-30 09:48:26,528 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2017-03-30 09:48:26,529 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2017-03-30 09:48:26,530 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2017-03-30 09:48:26,530 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2017-03-30 09:48:26,531 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2017-03-30 09:48:26,533 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2017-03-30 09:48:26,534 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2017-03-30 09:48:26,535 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2017-03-30 09:48:26,537 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2017-03-30 09:48:26,538 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2017-03-30 09:48:26,580 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (Could not find file 'D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config'.)
+2017-03-30 09:48:26,612 [17] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2017-03-30 09:48:26,620 [17] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-30 09:48:26,623 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2017-03-30 09:48:26,669 [17] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=5edd9c8e-3d5d-449e-bf34-c6c95b35cb2c
+2017-03-30 09:48:26,757 [17] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2017-03-30 09:48:26,779 [17] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-03-30 09:48:26,785 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=c40752d7-0d7e-4219-b1a2-d7565ee62261
+2017-03-30 09:48:26,795 [17] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2017-03-30 09:48:26,811 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=c40752d7-0d7e-4219-b1a2-d7565ee62261
+2017-03-30 09:48:26,814 [17] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2017-03-30 09:48:26,815 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=2, reason=ManagedDisconnect, detail=Application abort), serverId=c40752d7-0d7e-4219-b1a2-d7565ee62261
+2017-03-30 09:48:26,998 [15] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2017-03-30 09:48:26,999 [15] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-30 09:48:27,017 [15] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.56.1, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 5edd9c8e-3d5d-449e-bf34-c6c95b35cb2c, Hostname localhost, IPv6Address 
+2017-03-30 09:48:27,318 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=5edd9c8e-3d5d-449e-bf34-c6c95b35cb2c
+2017-03-30 09:48:28,050 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=e0a7ac7b-36cc-442d-81ce-02c5fe9ff5b8
+2017-03-30 09:48:28,771 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 36
+2017-03-30 09:48:28,787 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-30 09:48:28,964 [17] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-03-30 09:48:28,966 [17] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-03-30 09:48:28,991 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-03-30 09:48:29,035 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2017-03-30 09:48:29,037 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2017-03-30 09:48:29,038 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2017-03-30 09:48:29,039 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2017-03-30 09:48:29,040 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2017-03-30 09:48:29,041 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2017-03-30 09:48:29,042 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2017-03-30 09:48:29,043 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2017-03-30 09:48:29,043 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2017-03-30 09:48:29,044 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2017-03-30 09:48:29,045 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2017-03-30 09:48:29,046 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2017-03-30 09:48:29,047 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2017-03-30 09:48:29,048 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2017-03-30 09:48:29,089 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (Could not find file 'D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config'.)
+2017-03-30 09:48:29,128 [17] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2017-03-30 09:48:29,136 [17] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-30 09:48:29,139 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2017-03-30 09:48:29,197 [17] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=e0a7ac7b-36cc-442d-81ce-02c5fe9ff5b8
+2017-03-30 09:48:29,283 [17] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2017-03-30 09:48:29,305 [17] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-03-30 09:48:29,311 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=5edd9c8e-3d5d-449e-bf34-c6c95b35cb2c
+2017-03-30 09:48:29,320 [17] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2017-03-30 09:48:29,333 [19] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=5edd9c8e-3d5d-449e-bf34-c6c95b35cb2c
+2017-03-30 09:48:29,335 [19] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2017-03-30 09:48:29,337 [15] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=3, reason=ManagedDisconnect, detail=), serverId=5edd9c8e-3d5d-449e-bf34-c6c95b35cb2c
+2017-03-30 09:48:29,345 [6] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2017-03-30 09:48:29,346 [6] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-30 09:48:29,361 [6] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.81.191, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID e0a7ac7b-36cc-442d-81ce-02c5fe9ff5b8, Hostname localhost, IPv6Address 
+2017-03-30 09:48:29,473 [15] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=e0a7ac7b-36cc-442d-81ce-02c5fe9ff5b8
+2017-03-30 09:59:23,584 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-30 09:59:23,591 [20] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-30 10:00:15,122 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-30 10:00:15,122 [15] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-30 10:01:23,554 [22] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-30 10:01:23,579 [22] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-30 10:03:17,255 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-03-30 10:03:17,255 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-03-30 10:05:28,201 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-30 10:05:28,202 [6] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-30 10:05:45,427 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-03-30 10:05:45,429 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-03-30 10:06:17,724 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to High with input 70
+2017-03-30 10:06:17,725 [24] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=High
+2017-03-30 10:07:25,099 [25] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from High to Normal with input 50
+2017-03-30 10:07:25,100 [25] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=High, new=Normal
+2017-03-30 10:09:55,023 [25] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-03-30 10:09:55,024 [25] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-03-30 10:14:48,240 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=b3e32dcf-bcf5-4ea8-8e48-8394d69c0d57
+2017-03-30 10:14:48,456 [17] INFO  Photon.Common.LoadBalancer.Common.PublicIPAddressReader - Public IP lookup - remote endpoint: 104.45.24.151 (InterNetwork), local endpoint: 0.0.0.0 (InterNetwork)
+2017-03-30 10:14:48,509 [17] INFO  Photon.Common.LoadBalancer.Common.PublicIPAddressReader - Public IP address: 81.18.188.44, lookup at http://licensesp.exitgames.com/echoip
+2017-03-30 10:14:49,408 [17] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-03-30 10:14:49,410 [17] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-03-30 10:14:49,430 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-03-30 10:14:49,464 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2017-03-30 10:14:49,464 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2017-03-30 10:14:49,465 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2017-03-30 10:14:49,466 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2017-03-30 10:14:49,467 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2017-03-30 10:14:49,469 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2017-03-30 10:14:49,470 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2017-03-30 10:14:49,471 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2017-03-30 10:14:49,472 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2017-03-30 10:14:49,473 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2017-03-30 10:14:49,475 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2017-03-30 10:14:49,477 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2017-03-30 10:14:49,478 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2017-03-30 10:14:49,479 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2017-03-30 10:14:49,524 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (Could not find file 'D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config'.)
+2017-03-30 10:14:49,560 [17] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2017-03-30 10:14:49,567 [17] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-30 10:14:49,570 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2017-03-30 10:14:49,615 [17] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=b3e32dcf-bcf5-4ea8-8e48-8394d69c0d57
+2017-03-30 10:14:49,693 [17] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2017-03-30 10:14:49,714 [17] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-03-30 10:14:49,720 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=e0a7ac7b-36cc-442d-81ce-02c5fe9ff5b8
+2017-03-30 10:14:49,729 [17] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2017-03-30 10:14:49,740 [18] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=e0a7ac7b-36cc-442d-81ce-02c5fe9ff5b8
+2017-03-30 10:14:49,743 [18] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2017-03-30 10:14:49,744 [15] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=4, reason=ManagedDisconnect, detail=), serverId=e0a7ac7b-36cc-442d-81ce-02c5fe9ff5b8
+2017-03-30 10:14:49,750 [14] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2017-03-30 10:14:49,751 [14] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-30 10:14:49,765 [14] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 81.18.188.44, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID b3e32dcf-bcf5-4ea8-8e48-8394d69c0d57, Hostname localhost, IPv6Address 
+2017-03-30 10:14:49,893 [10] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=b3e32dcf-bcf5-4ea8-8e48-8394d69c0d57
+2017-03-30 10:15:01,726 [7] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-03-30 10:15:01,727 [7] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-03-30 10:18:42,801 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=6b8c1bb2-4eeb-436f-814a-f2b0dcbbae12
+2017-03-30 10:18:43,754 [17] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-03-30 10:18:43,755 [17] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-03-30 10:18:43,785 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-03-30 10:18:43,826 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2017-03-30 10:18:43,828 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2017-03-30 10:18:43,828 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2017-03-30 10:18:43,829 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2017-03-30 10:18:43,830 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2017-03-30 10:18:43,832 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2017-03-30 10:18:43,834 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2017-03-30 10:18:43,836 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2017-03-30 10:18:43,837 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2017-03-30 10:18:43,839 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2017-03-30 10:18:43,842 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2017-03-30 10:18:43,843 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2017-03-30 10:18:43,844 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2017-03-30 10:18:43,846 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2017-03-30 10:18:43,907 [17] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config. Using default settings... (Could not find file 'D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\Workload.config'.)
+2017-03-30 10:18:43,949 [17] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\ServerState.txt
+2017-03-30 10:18:43,957 [17] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-30 10:18:43,960 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2017-03-30 10:18:44,012 [17] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=6b8c1bb2-4eeb-436f-814a-f2b0dcbbae12
+2017-03-30 10:18:44,139 [17] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=D:\Downloads\Photon Server\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2017-03-30 10:18:44,162 [17] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-03-30 10:18:44,169 [17] INFO  Photon.LoadBalancing.GameServer.GameApplication - OnStopRequested: serverid=b3e32dcf-bcf5-4ea8-8e48-8394d69c0d57
+2017-03-30 10:18:44,177 [17] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Game
+2017-03-30 10:18:44,192 [19] INFO  Photon.LoadBalancing.GameServer.GameApplication - TearDown: serverId=b3e32dcf-bcf5-4ea8-8e48-8394d69c0d57
+2017-03-30 10:18:44,196 [19] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Game
+2017-03-30 10:18:44,197 [10] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - connection to master closed (id=5, reason=ManagedDisconnect, detail=), serverId=b3e32dcf-bcf5-4ea8-8e48-8394d69c0d57
+2017-03-30 10:18:44,200 [7] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2017-03-30 10:18:44,202 [7] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-03-30 10:18:44,216 [7] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 192.168.56.1, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID 6b8c1bb2-4eeb-436f-814a-f2b0dcbbae12, Hostname localhost, IPv6Address 
+2017-03-30 10:18:44,326 [7] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=6b8c1bb2-4eeb-436f-814a-f2b0dcbbae12
+2017-03-30 10:18:50,099 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 38
+2017-03-30 10:18:50,100 [21] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
